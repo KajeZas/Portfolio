@@ -3,8 +3,12 @@
     <nav>
       <NavBar></NavBar>
     </nav>
-    <router-view />
-  </div>
+    <content class="d-flex justify-content-center">
+        <div class="w-75">
+          <router-view />
+        </div>
+    </content>
+</div>
 </template>
 
 <script>
